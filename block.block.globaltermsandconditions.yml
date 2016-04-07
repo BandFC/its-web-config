@@ -1,0 +1,25 @@
+uuid: efec0a7d-ff90-457f-a031-0c697ce452bc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:524125d9-4109-4530-8ff4-f46a434fc473'
+  module:
+    - block_content
+  theme:
+    - itsweb
+id: globaltermsandconditions
+theme: itsweb
+region: tandc
+weight: null
+provider: null
+plugin: 'block_content:524125d9-4109-4530-8ff4-f46a434fc473'
+settings:
+  id: 'block_content:524125d9-4109-4530-8ff4-f46a434fc473'
+  label: 'Global: Terms and Conditions'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

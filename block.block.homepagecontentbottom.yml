@@ -1,0 +1,31 @@
+uuid: 91b1e763-29bc-472d-ac95-effda8931c33
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:30818ee8-f9d0-4b99-a23d-42f79d593e1a'
+  module:
+    - block_content
+    - system
+  theme:
+    - itsweb
+id: homepagecontentbottom
+theme: itsweb
+region: content_bottom
+weight: null
+provider: null
+plugin: 'block_content:30818ee8-f9d0-4b99-a23d-42f79d593e1a'
+settings:
+  id: 'block_content:30818ee8-f9d0-4b99-a23d-42f79d593e1a'
+  label: 'Homepage: Content-bottom'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

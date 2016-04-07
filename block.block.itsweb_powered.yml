@@ -1,0 +1,22 @@
+uuid: 61787bca-b4d9-4a23-a314-20d948aa5f5a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - itsweb
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: itsweb_powered
+theme: itsweb
+region: '-1'
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

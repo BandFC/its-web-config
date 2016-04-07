@@ -1,0 +1,31 @@
+uuid: 408f3a62-98cc-4cd8-a48e-c74ed6a7c315
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dd6a74fd-45bb-410a-8789-005b5156ce59'
+  module:
+    - block_content
+    - system
+  theme:
+    - itsweb
+id: hompagepageclosure
+theme: itsweb
+region: page_closure
+weight: null
+provider: null
+plugin: 'block_content:dd6a74fd-45bb-410a-8789-005b5156ce59'
+settings:
+  id: 'block_content:dd6a74fd-45bb-410a-8789-005b5156ce59'
+  label: 'Hompage: Page-closure'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

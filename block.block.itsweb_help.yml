@@ -1,0 +1,22 @@
+uuid: 9112346b-df99-496a-8d3e-62f6d2540229
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - itsweb
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: itsweb_help
+theme: itsweb
+region: '-1'
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

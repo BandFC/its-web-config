@@ -1,0 +1,22 @@
+uuid: 7282264b-301f-4d8b-b517-23eb61e9b909
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - itsweb
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: itsweb_content
+theme: itsweb
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1fd71d11-5c35-4e32-975a-90209221bf48
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - itsweb
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: itsweb_search
+theme: itsweb
+region: '-1'
+weight: -3
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

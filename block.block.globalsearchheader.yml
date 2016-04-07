@@ -1,0 +1,25 @@
+uuid: 9fd2c20b-c154-403e-ac82-68c40735ce42
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e8778ea8-7ba7-4d47-9155-f005631e2f2d'
+  module:
+    - block_content
+  theme:
+    - itsweb
+id: globalsearchheader
+theme: itsweb
+region: search_header
+weight: null
+provider: null
+plugin: 'block_content:e8778ea8-7ba7-4d47-9155-f005631e2f2d'
+settings:
+  id: 'block_content:e8778ea8-7ba7-4d47-9155-f005631e2f2d'
+  label: 'Global: Search Header '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
