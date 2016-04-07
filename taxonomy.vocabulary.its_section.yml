@@ -1,0 +1,9 @@
+uuid: 3e133963-bbb5-4d2c-b150-495e00ffe5ea
+langcode: en
+status: true
+dependencies: {  }
+name: 'ITS Section'
+vid: its_section
+description: 'Taxonomy terms to define which section of the ITS the content falls under'
+hierarchy: 0
+weight: 0
