@@ -1,18 +1,13 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: themes/itsweb/images/favicon.ico
-  url: 'http://itsweb.blackpool.ac.uk/themes/itsweb/favicon.ico'
+  url: 'http://itsweb.blackpool.ac.uk/themes/itsweb/images/favicon.ico'
   use_default: false
 schema: '8000'
 logo:
   path: themes/itsweb/images/logo.png
   url: ''
   use_default: false
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
 region_wells:
   navigation: ''
   navigation_collapsible: ''
@@ -25,8 +20,14 @@ region_wells:
   content: ''
   content_bottom: ''
   sidebar_first: ''
-  sidebar_second: well
+  sidebar_second: ''
   page_closure: ''
   footer: ''
   tandc: ''
 fluid_container: 1
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+navbar_position: fixed-top
