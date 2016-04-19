@@ -1,0 +1,17 @@
+uuid: 621bbe62-c25b-486d-8c4f-32f832f1182f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Course Occurrence'
+type: course_occurrence
+description: 'All course occurrence data imported from main B&FC site'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

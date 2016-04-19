@@ -1,0 +1,47 @@
+uuid: 94b4e24e-767f-41d9-8508-cfcabf04c802
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.course_occurrence.field__occurrence_code
+    - field.field.node.course_occurrence.field__qualification_obtained
+    - field.field.node.course_occurrence.field_course_code
+    - field.field.node.course_occurrence.field_qualification_code
+    - node.type.course_occurrence
+  module:
+    - user
+id: node.course_occurrence.default
+targetEntityType: node
+bundle: course_occurrence
+mode: default
+content:
+  field__occurrence_code:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field__qualification_obtained:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_course_code:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_qualification_code:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden: {  }

@@ -1,0 +1,17 @@
+uuid: e9bc816e-222a-4d8d-aa85-6e55c84e67b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.course_occurrence
+  module:
+    - user
+id: node.course_occurrence.teaser
+targetEntityType: node
+bundle: course_occurrence
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }

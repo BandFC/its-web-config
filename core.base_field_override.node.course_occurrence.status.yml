@@ -1,0 +1,22 @@
+uuid: 5ff5dac5-af3f-48a2-b973-9d3aeeea1ddb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.course_occurrence
+id: node.course_occurrence.status
+field_name: status
+entity_type: node
+bundle: course_occurrence
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
