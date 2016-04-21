@@ -1,0 +1,20 @@
+uuid: e0375c17-9c16-4c7c-a0bb-ccdc06bada76
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_occurrence_id
+field_name: field_occurrence_id
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

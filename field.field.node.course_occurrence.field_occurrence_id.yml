@@ -1,0 +1,23 @@
+uuid: 1bbc5ec3-de22-4773-a457-ac3d167c4231
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_occurrence_id
+    - node.type.course_occurrence
+id: node.course_occurrence.field_occurrence_id
+field_name: field_occurrence_id
+entity_type: node
+bundle: course_occurrence
+label: 'Occurrence ID'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

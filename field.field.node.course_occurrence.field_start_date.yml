@@ -1,19 +1,21 @@
-uuid: f17846d0-3145-4e45-b529-7557769e7d20
+uuid: d70c1a37-3fb2-497c-90df-af5b924408cc
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field__occurrence_code
+    - field.storage.node.field_start_date
     - node.type.course_occurrence
-id: node.course_occurrence.field__occurrence_code
-field_name: field__occurrence_code
+  module:
+    - datetime
+id: node.course_occurrence.field_start_date
+field_name: field_start_date
 entity_type: node
 bundle: course_occurrence
-label: ' Occurrence Code'
+label: 'Start Date'
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: datetime

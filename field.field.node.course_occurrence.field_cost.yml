@@ -1,0 +1,23 @@
+uuid: ca13c75c-f33b-4a7a-a6fd-137c98900ac8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cost
+    - node.type.course_occurrence
+id: node.course_occurrence.field_cost
+field_name: field_cost
+entity_type: node
+bundle: course_occurrence
+label: Cost
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: £
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,19 @@
+uuid: 8eb966ec-6905-478e-bb81-f8ab8a93ded4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.course_occurrence
+id: node.course_occurrence.field_location
+field_name: field_location
+entity_type: node
+bundle: course_occurrence
+label: Location
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

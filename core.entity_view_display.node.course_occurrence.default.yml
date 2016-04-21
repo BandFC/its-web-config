@@ -3,31 +3,45 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.course_occurrence.field__occurrence_code
-    - field.field.node.course_occurrence.field__qualification_obtained
+    - field.field.node.course_occurrence.field_attendance_mode
+    - field.field.node.course_occurrence.field_cost
     - field.field.node.course_occurrence.field_course_code
+    - field.field.node.course_occurrence.field_duration
+    - field.field.node.course_occurrence.field_end_date
+    - field.field.node.course_occurrence.field_length
+    - field.field.node.course_occurrence.field_location
+    - field.field.node.course_occurrence.field_occurrence_code
+    - field.field.node.course_occurrence.field_occurrence_id
+    - field.field.node.course_occurrence.field_online_apply
+    - field.field.node.course_occurrence.field_online_enrol
     - field.field.node.course_occurrence.field_qualification_code
+    - field.field.node.course_occurrence.field_qualification_obtained
+    - field.field.node.course_occurrence.field_start_date
     - node.type.course_occurrence
   module:
+    - datetime
     - user
 id: node.course_occurrence.default
 targetEntityType: node
 bundle: course_occurrence
 mode: default
 content:
-  field__occurrence_code:
-    weight: 104
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-  field__qualification_obtained:
-    weight: 101
+  field_attendance_mode:
+    weight: 114
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
+  field_cost:
+    weight: 113
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
   field_course_code:
     weight: 103
     label: above
@@ -35,6 +49,68 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+  field_duration:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_end_date:
+    weight: 108
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_length:
+    weight: 111
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_location:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_occurrence_code:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_occurrence_id:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_online_apply:
+    weight: 115
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_online_enrol:
+    weight: 116
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
   field_qualification_code:
     weight: 102
     label: above
@@ -42,6 +118,20 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+  field_qualification_obtained:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_start_date:
+    weight: 107
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
   links:
     weight: 100
 hidden: {  }

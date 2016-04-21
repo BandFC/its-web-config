@@ -1,17 +1,16 @@
-uuid: ff5afa2f-4ec6-42a6-b587-81194947817a
+uuid: da30a7b5-64b4-463c-9809-3ed90272c892
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field__occurrence_code
-field_name: field__occurrence_code
+id: node.field_length
+field_name: field_length
 entity_type: node
-type: string
+type: integer
 settings:
-  max_length: 16
-  is_ascii: false
-  case_sensitive: false
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1

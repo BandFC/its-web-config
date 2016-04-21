@@ -1,0 +1,23 @@
+uuid: 574cbbf2-37ee-4a70-8ac3-d4a2aac082c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_length
+    - node.type.course_occurrence
+id: node.course_occurrence.field_length
+field_name: field_length
+entity_type: node
+bundle: course_occurrence
+label: Length
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

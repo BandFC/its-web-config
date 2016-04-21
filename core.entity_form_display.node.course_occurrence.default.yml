@@ -3,12 +3,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.course_occurrence.field__occurrence_code
-    - field.field.node.course_occurrence.field__qualification_obtained
+    - field.field.node.course_occurrence.field_attendance_mode
+    - field.field.node.course_occurrence.field_cost
     - field.field.node.course_occurrence.field_course_code
+    - field.field.node.course_occurrence.field_duration
+    - field.field.node.course_occurrence.field_end_date
+    - field.field.node.course_occurrence.field_length
+    - field.field.node.course_occurrence.field_location
+    - field.field.node.course_occurrence.field_occurrence_code
+    - field.field.node.course_occurrence.field_occurrence_id
+    - field.field.node.course_occurrence.field_online_apply
+    - field.field.node.course_occurrence.field_online_enrol
     - field.field.node.course_occurrence.field_qualification_code
+    - field.field.node.course_occurrence.field_qualification_obtained
+    - field.field.node.course_occurrence.field_start_date
     - node.type.course_occurrence
   module:
+    - datetime
     - path
 id: node.course_occurrence.default
 targetEntityType: node
@@ -20,20 +31,19 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
-  field__occurrence_code:
-    weight: 34
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-  field__qualification_obtained:
-    weight: 31
+  field_attendance_mode:
+    weight: 44
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
+  field_cost:
+    weight: 43
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
   field_course_code:
     weight: 33
     settings:
@@ -41,6 +51,56 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+  field_duration:
+    weight: 40
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_end_date:
+    weight: 38
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_length:
+    weight: 41
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_location:
+    weight: 39
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  field_occurrence_code:
+    weight: 35
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_occurrence_id:
+    weight: 36
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_online_apply:
+    weight: 45
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
+  field_online_enrol:
+    weight: 46
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
   field_qualification_code:
     weight: 32
     settings:
@@ -48,6 +108,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+  field_qualification_obtained:
+    weight: 34
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  field_start_date:
+    weight: 37
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   path:
     type: path
     weight: 30
