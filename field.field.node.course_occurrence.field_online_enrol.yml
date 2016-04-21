@@ -1,0 +1,23 @@
+uuid: 2fbbe8e0-fcf0-4c61-8965-001ebb9addb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_online_enrol
+    - node.type.course_occurrence
+id: node.course_occurrence.field_online_enrol
+field_name: field_online_enrol
+entity_type: node
+bundle: course_occurrence
+label: 'Online Enrol'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

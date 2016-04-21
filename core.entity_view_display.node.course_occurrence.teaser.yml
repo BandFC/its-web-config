@@ -14,4 +14,8 @@ mode: teaser
 content:
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field__occurrence_code: true
+  field__qualification_obtained: true
+  field_course_code: true
+  field_qualification_code: true

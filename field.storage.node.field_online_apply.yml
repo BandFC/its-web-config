@@ -1,0 +1,18 @@
+uuid: 99d66af9-7c33-412d-a6f3-5eada3375acf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_online_apply
+field_name: field_online_apply
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

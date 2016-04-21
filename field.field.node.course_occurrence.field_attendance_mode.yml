@@ -1,17 +1,17 @@
-uuid: 0b1274d4-59c8-415d-92b5-f7b4ab874c44
+uuid: c824d79d-6a91-405c-82cb-6aa8bcaa18c9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field__qualification_obtained
+    - field.storage.node.field_attendance_mode
     - node.type.course_occurrence
-id: node.course_occurrence.field__qualification_obtained
-field_name: field__qualification_obtained
+id: node.course_occurrence.field_attendance_mode
+field_name: field_attendance_mode
 entity_type: node
 bundle: course_occurrence
-label: ' Qualification Obtained'
+label: 'Attendance Mode'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

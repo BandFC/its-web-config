@@ -1,0 +1,19 @@
+uuid: f50ceaa6-c066-40c5-8da1-3867db566bd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qualification_obtained
+    - node.type.course_occurrence
+id: node.course_occurrence.field_qualification_obtained
+field_name: field_qualification_obtained
+entity_type: node
+bundle: course_occurrence
+label: 'Qualification Obtained'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,14 +1,16 @@
-uuid: 05be050e-3fbc-4524-9ae0-cfbac5af5737
+uuid: 191bced3-6fe6-4131-b5b7-b6dafb8f8494
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field__qualification_obtained
-field_name: field__qualification_obtained
+id: node.field_occurrence_code
+field_name: field_occurrence_code
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 16
+  is_ascii: false
   case_sensitive: false
 module: core
 locked: false
