@@ -11,7 +11,7 @@ dependencies:
 id: globalcontactus
 theme: itsweb
 region: footer
-weight: null
+weight: -12
 provider: null
 plugin: 'block_content:7e0ec33f-5dea-4ed8-bf73-00467a814bd3'
 settings:

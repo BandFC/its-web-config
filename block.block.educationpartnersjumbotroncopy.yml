@@ -1,23 +1,23 @@
-uuid: 4c4c66f2-7555-487f-9586-9c3fe8804949
+uuid: 587cad7e-fbfb-48db-9f48-b44b9ac82f5f
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:d910754f-5233-4015-a785-328bc0aa44ab'
+    - 'block_content:basic:a6ff0340-eef0-4606-a6ca-bce2f811b3d2'
   module:
     - block_content
     - system
   theme:
     - itsweb
-id: hompagejumbotron
+id: educationpartnersjumbotroncopy
 theme: itsweb
 region: jumbotron
-weight: -11
+weight: -9
 provider: null
-plugin: 'block_content:d910754f-5233-4015-a785-328bc0aa44ab'
+plugin: 'block_content:a6ff0340-eef0-4606-a6ca-bce2f811b3d2'
 settings:
-  id: 'block_content:d910754f-5233-4015-a785-328bc0aa44ab'
-  label: 'Hompage: Jumbotron'
+  id: 'block_content:a6ff0340-eef0-4606-a6ca-bce2f811b3d2'
+  label: 'Education Partners: Jumbotron Copy'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /education-partners
     negate: false
     context_mapping: {  }

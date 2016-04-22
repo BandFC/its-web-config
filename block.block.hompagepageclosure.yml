@@ -12,7 +12,7 @@ dependencies:
 id: hompagepageclosure
 theme: itsweb
 region: page_closure
-weight: null
+weight: -12
 provider: null
 plugin: 'block_content:dd6a74fd-45bb-410a-8789-005b5156ce59'
 settings:

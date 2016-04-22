@@ -12,7 +12,7 @@ dependencies:
 id: homepagecontentbottom
 theme: itsweb
 region: content_bottom
-weight: null
+weight: -12
 provider: null
 plugin: 'block_content:30818ee8-f9d0-4b99-a23d-42f79d593e1a'
 settings:

@@ -1,23 +1,23 @@
-uuid: c4689024-4929-4fe7-bfaf-f2e974b60428
+uuid: 8e5d2ea9-814b-458a-adf4-72a7682de383
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:4f9410d5-60e4-4e96-a553-096e88d4fe19'
+    - 'block_content:basic:c1f3d233-2217-46ac-a3ab-15022217e139'
   module:
     - block_content
     - system
   theme:
     - itsweb
-id: homepagecontenttop
+id: aboutjumbotroncopy
 theme: itsweb
-region: content_top
-weight: -12
+region: jumbotron
+weight: -10
 provider: null
-plugin: 'block_content:4f9410d5-60e4-4e96-a553-096e88d4fe19'
+plugin: 'block_content:c1f3d233-2217-46ac-a3ab-15022217e139'
 settings:
-  id: 'block_content:4f9410d5-60e4-4e96-a553-096e88d4fe19'
-  label: 'Homepage: Content-top'
+  id: 'block_content:c1f3d233-2217-46ac-a3ab-15022217e139'
+  label: 'About: Jumbotron Copy'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /about
     negate: false
     context_mapping: {  }

@@ -11,7 +11,7 @@ dependencies:
 id: globalsearchheader
 theme: itsweb
 region: search_header
-weight: null
+weight: -12
 provider: null
 plugin: 'block_content:e8778ea8-7ba7-4d47-9155-f005631e2f2d'
 settings:
