@@ -14,4 +14,12 @@ mode: teaser
 content:
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_about_course: true
+  field_career_progression: true
+  field_course_code: true
+  field_course_overview: true
+  field_entry_requirements: true
+  field_instance_id: true
+  field_market_area: true
+  field_sector_subject_area: true
