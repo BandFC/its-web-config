@@ -1,0 +1,19 @@
+uuid: ab9aa1c3-9a9c-4e1b-a1e7-47b864b487db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_market_area
+    - node.type.course_instance
+id: node.course_instance.field_market_area
+field_name: field_market_area
+entity_type: node
+bundle: course_instance
+label: 'Market Area'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

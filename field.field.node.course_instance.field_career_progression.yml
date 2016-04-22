@@ -1,0 +1,21 @@
+uuid: a8847d9c-0f3b-4fd0-a9b2-9d6dd692bd0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_career_progression
+    - node.type.course_instance
+  module:
+    - text
+id: node.course_instance.field_career_progression
+field_name: field_career_progression
+entity_type: node
+bundle: course_instance
+label: 'Career Progression'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

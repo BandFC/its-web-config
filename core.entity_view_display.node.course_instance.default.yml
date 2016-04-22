@@ -1,0 +1,76 @@
+uuid: e80161a2-cc69-4b49-b7ea-018b4724036d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.course_instance.field_about_course
+    - field.field.node.course_instance.field_career_progression
+    - field.field.node.course_instance.field_course_code
+    - field.field.node.course_instance.field_course_overview
+    - field.field.node.course_instance.field_entry_requirements
+    - field.field.node.course_instance.field_instance_id
+    - field.field.node.course_instance.field_market_area
+    - field.field.node.course_instance.field_sector_subject_area
+    - node.type.course_instance
+  module:
+    - text
+    - user
+id: node.course_instance.default
+targetEntityType: node
+bundle: course_instance
+mode: default
+content:
+  field_about_course:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_career_progression:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_course_code:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_course_overview:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_entry_requirements:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_instance_id:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_market_area:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_sector_subject_area:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+hidden: {  }

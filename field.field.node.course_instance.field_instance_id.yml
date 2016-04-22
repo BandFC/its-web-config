@@ -1,0 +1,23 @@
+uuid: 119dbf26-0c29-492e-916d-a0f50f235651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instance_id
+    - node.type.course_instance
+id: node.course_instance.field_instance_id
+field_name: field_instance_id
+entity_type: node
+bundle: course_instance
+label: 'Instance ID'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

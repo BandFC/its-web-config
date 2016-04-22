@@ -1,0 +1,17 @@
+uuid: b9752c68-8758-4811-bb62-c26232d349ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Course Instance'
+type: course_instance
+description: 'Market information relating to courses, including entry requirements, course overview and progression'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

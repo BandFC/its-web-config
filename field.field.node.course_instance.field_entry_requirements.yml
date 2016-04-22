@@ -1,0 +1,21 @@
+uuid: 16648881-6961-476a-94d0-0a6ec385c5a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_entry_requirements
+    - node.type.course_instance
+  module:
+    - text
+id: node.course_instance.field_entry_requirements
+field_name: field_entry_requirements
+entity_type: node
+bundle: course_instance
+label: 'Entry Requirements'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

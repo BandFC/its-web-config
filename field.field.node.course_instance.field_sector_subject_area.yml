@@ -1,0 +1,19 @@
+uuid: 1ad7f786-db4b-4ea4-a192-031973331323
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sector_subject_area
+    - node.type.course_instance
+id: node.course_instance.field_sector_subject_area
+field_name: field_sector_subject_area
+entity_type: node
+bundle: course_instance
+label: 'Sector Subject Area'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

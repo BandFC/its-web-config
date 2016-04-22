@@ -1,0 +1,21 @@
+uuid: a92cdfe1-d19d-41a6-af01-0c5395c66eb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_overview
+    - node.type.course_instance
+  module:
+    - text
+id: node.course_instance.field_course_overview
+field_name: field_course_overview
+entity_type: node
+bundle: course_instance
+label: 'Course Overview'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
