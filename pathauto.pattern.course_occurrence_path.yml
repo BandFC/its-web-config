@@ -1,0 +1,22 @@
+uuid: fdd88459-f20f-4121-9ae8-84d972f4d389
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: course_occurrence_path
+label: 'Course Occurrence Path'
+type: 'canonical_entities:node'
+pattern: 'occurrence/[node:field_occurrence_id]'
+selection_criteria:
+  a9870553-3174-4207-a4ee-11b25dbfa7a6:
+    id: node_type
+    bundles:
+      course_occurrence: course_occurrence
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a9870553-3174-4207-a4ee-11b25dbfa7a6
+selection_logic: and
+weight: -5
+relationships: {  }

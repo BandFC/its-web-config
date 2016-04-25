@@ -1,0 +1,22 @@
+uuid: 06bd7a67-2704-4be2-acee-4cb9a29c26d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: course_instance_path
+label: 'Course Instance Path'
+type: 'canonical_entities:node'
+pattern: 'course/[node:field_course_code]'
+selection_criteria:
+  25accadf-6cc2-45d8-9e9b-3e8613a9d429:
+    id: node_type
+    bundles:
+      course_instance: course_instance
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 25accadf-6cc2-45d8-9e9b-3e8613a9d429
+selection_logic: and
+weight: -5
+relationships: {  }
